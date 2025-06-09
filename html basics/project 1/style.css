@@ -1,0 +1,7 @@
+body{
+    background-color: aquamarine;
+}
+h3 > p{
+    color: red;
+    font-size: 20px;
+}
