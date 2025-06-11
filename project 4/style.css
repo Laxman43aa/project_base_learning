@@ -1,0 +1,112 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fff;
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #e23744; /* Zomato Red */
+    padding: 15px 30px;
+    text-align: center;
+}
+
+header div a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 20px;
+    font-size: 18px;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+header div a:hover {
+    color: #ffb3b3;
+}
+
+/* Main content */
+main {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+/* Headings */
+h1 {
+    font-size: 36px;
+    color: #e23744;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 28px;
+    margin: 25px 0 10px;
+    color: #c62828;
+}
+
+/* Paragraphs */
+p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+/* Restaurant list */
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+ul li {
+    background-color: #ffe6e6;
+    border-left: 5px solid #e23744;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+ul li:hover {
+    background-color: #ffd6d6;
+}
+
+/* Horizontal rule */
+hr {
+    border: none;
+    height: 1px;
+    background-color: #ddd;
+    margin: 30px 0;
+}
+
+/* Footer */
+footer {
+    background-color: #f8f8f8;
+    padding: 20px 30px;
+    text-align: center;
+    margin-top: 40px;
+    border-top: 1px solid #ddd;
+}
+
+footer p {
+    color: #888;
+    margin-bottom: 10px;
+}
+
+footer a {
+    color: #e23744;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: 500;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
