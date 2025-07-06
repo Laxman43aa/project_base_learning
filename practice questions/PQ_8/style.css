@@ -1,0 +1,37 @@
+/* div {
+    width: 100px;
+    height: 100px;
+    background-color: #0077ff;
+    color: white;
+    font-size: 20px;
+} */
+
+/* .dark{
+    background-color: #333;
+    color: white;
+}
+.light{
+    background-color: #fff;
+    color: black;
+} */
+
+.box1{
+    width: 100px;
+    height: 100px;
+    background-color: hsl(300, 81%, 55%);
+    color: white;
+    font-size: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.box2{
+    width: 400px;
+    height: 400px;
+    background-color: hsl(120, 81%, 55%);
+    color: white;
+    font-size: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
